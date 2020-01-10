@@ -8,5 +8,5 @@ Pre configured django project for making development easy
 - That's all, start developing...
 
 ## Features
-- Django version 2.2 (LTS).
+- Django version 2.2.8 (LTS).
 - Manage multiple environments
