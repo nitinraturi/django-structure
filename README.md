@@ -10,6 +10,10 @@ Pre configured django project for making development fast, by cutting the initia
 python -c 'import random; print("".join([random.choice("abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*(-_=+)") for i in range(50)]))'
 ```
 - Now replace the SECRET_KEY value with the value generated in your terminal inside your .env file.
+- Let's create required directories now, run
+```
+mkdir -p static/{css,js,img} static_cdn/{static_root,media_root} templates/{snippets,layouts} apps
+```
 - At last remove .git file and set your own later
 ```
 rm -rf .git
