@@ -11,7 +11,7 @@ INSTALLED_APPS = [
 
 #Third Party Apps
 INSTALLED_APPS += [
-
+    'debug_toolbar',
 ]
 
 #Custom Apps
