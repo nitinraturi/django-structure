@@ -14,6 +14,7 @@ INSTALLED_APPS = [
 INSTALLED_APPS += [
     'debug_toolbar',
     'compressor',
+    'rest_framework',
 ]
 
 #Custom Apps

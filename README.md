@@ -9,6 +9,7 @@ Pre configured django project for making development fast, by cutting the initia
 - Extended User model i.e., apps.users.User
 - Compressor and Minifier Implemented.
 - Pages app for static pages
+- Django-rest-framework configured
 - **[OPTIONAL]** Sitemap implemented i.e., **conf/sitemaps.py** and **conf/urls.py** #uncomment to use.
 
 ## Dependencies

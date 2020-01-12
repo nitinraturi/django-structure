@@ -14,6 +14,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('users/', include('apps.users.urls',namespace="users")),
 
+    #django-rest_framework
+    path('drf-api-auth/', include('rest_framework.urls')),
+
     # path('sitemap.xml', sitemap, {'sitemaps': sitemaps},
     #      name='django.contrib.sitemaps.views.sitemap'),
 
