@@ -32,7 +32,7 @@ source venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
-- Create a file **.env** where **manage.py** is located and set your environment variables. Have a look sample file: **.env-sample**
+- Create a file **.env** where **manage.py** is located and set your environment variables. Have a look sample file: **.env-sample**. Make sure you have all the variables set inside your **.env** file as in **.env-sample**
 - Generate **SECRET_KEY** using the command
 ```
 python -c 'import random; print("".join([random.choice("abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*(-_=+)") for i in range(50)]))'
