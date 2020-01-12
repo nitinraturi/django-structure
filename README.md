@@ -36,7 +36,7 @@ pip install -r requirements.txt
 ```
 - Create a file **.env** where **manage.py** is located similar to **.env-sample** and set your environment variables later.
 ```
-cp .env-sample ./.env
+cp .env-sample .env
 ```
 - Generate **SECRET_KEY** using the command
 ```
