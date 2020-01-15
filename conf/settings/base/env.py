@@ -4,3 +4,4 @@
 from decouple import config
 DEBUG = config('DEBUG')
 PRODUCTION = not DEBUG
+SECRET_KEY = config('SECRET_KEY')
