@@ -9,10 +9,12 @@ Pre configured django project for making development fast, by cutting the initia
 - Extended User model i.e., apps.users.User
 - Compressor and Minifier Implemented.
 - Pages app for static pages
-- Sitemap implemented **[OPTIONAL]** i.e., conf/sitemaps.py and conf/urls.py #code commented
+- Django-rest-framework & simple-jwt configured
+- **[OPTIONAL]** Sitemap implemented i.e., **conf/sitemaps.py** and **conf/urls.py** #uncomment to use.
 
 ## Dependencies
-- Install memcached for caching
+- Python3
+- Memcached
 ```
 sudo apt-get install memcached
 ```
@@ -32,7 +34,10 @@ source venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
-- Create a file **.env** where **manage.py** is located and set your environment variables. Have a look sample file: **.env-sample**
+- Create a file **.env** where **manage.py** is located similar to **.env-sample** and set your environment variables later.
+```
+cp .env-sample .env
+```
 - Generate **SECRET_KEY** using the command
 ```
 python -c 'import random; print("".join([random.choice("abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*(-_=+)") for i in range(50)]))'

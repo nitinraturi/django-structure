@@ -2,6 +2,6 @@
 # allow you manage env without touching project code.
 
 from decouple import config
-DEBUG = config('DEBUG')
+DEBUG = config('DEBUG', cast=bool)
 PRODUCTION = not DEBUG
 SECRET_KEY = config('SECRET_KEY')

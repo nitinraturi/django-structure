@@ -1,7 +1,7 @@
 if DEBUG:
     ALLOWED_HOSTS = ['*','127.0.0.1','localhost']
 else:
-    ALLOWED_HOSTS = ['127.0.0.1'] # set this to your domain.in,ip,etc
+    ALLOWED_HOSTS = ['127.0.0.1','localhost'] # set this to your domain.in,ip,etc
 
 
 AUTH_PASSWORD_VALIDATORS = [
