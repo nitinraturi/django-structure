@@ -6,7 +6,7 @@ django-debug-toolbar==2.1
 django-filter==2.2.0
 django-htmlmin==0.11.0
 django-split-settings==0.3.0
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 djangorestframework-simplejwt==4.3.0
 html5lib==1.0.1
 Markdown==3.1.1
