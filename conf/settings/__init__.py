@@ -5,6 +5,7 @@ include(
     'base/env.py',
 
     # Here we should have the order because of dependencies
+    'base/constant.py',
     'base/paths.py',
     'base/apps.py',
     'base/middleware.py',
